@@ -36,12 +36,6 @@ Output
 
 
 
-yaml
-
-Copy code
-
-
-
 \### Execution Modes
 
 \- \*\*Sequential\*\*: CPU preprocessing → DSP inference (one after the other)
@@ -90,15 +84,7 @@ cpu-dsp-pipelined-inference/
 
 
 
-yaml
-
-Copy code
-
-
-
 ---
-
-
 
 \## CPU Stage – Preprocessing
 
@@ -172,21 +158,10 @@ CPU → DSP → CPU → DSP
 
 
 
-shell
-
-Copy code
-
-
-
 \### Pipelined Mode
 
 CPU(frame N+1) || DSP(frame N)
 
-
-
-yaml
-
-Copy code
 
 
 
@@ -247,24 +222,16 @@ These plots clearly demonstrate system-level performance tradeoffs.
 
 
 \### Install dependencies
-
-```bash
-
 pip install torch opencv-python psutil matplotlib pandas ultralytics
 
 Run pipeline
 
-bash
 
-Copy code
 
 python -m scripts.pipeline
 
 Generate plots
 
-bash
-
-Copy code
 
 python scripts/plots.py
 
@@ -290,27 +257,11 @@ Relevance to Edge \& Automotive AI
 
 This project reflects real-world challenges in:
 
-
-
 CPU–DSP coordination
-
-
-
 Latency budgeting
-
-
-
 Memory-constrained environments
-
-
-
 Real-time perception pipelines
 
-
-
-Author
-
-Jyothin
 
 
 
