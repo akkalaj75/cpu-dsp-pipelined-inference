@@ -1,10 +1,6 @@
-# cpu-dsp-pipelined-inference
-
-CPU–DSP pipelined ML inference system simulating edge/automotive workloads
-
 # CPU–DSP Pipelined ML Inference (Edge / Automotive Systems)
 
-
+CPU–DSP pipelined ML inference system simulating edge/automotive workloads
 
 \## Overview
 
