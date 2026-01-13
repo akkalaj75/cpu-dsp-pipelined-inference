@@ -1,0 +1,6 @@
+__pycache__/
+.cache/
+*.pt
+*.pth
+*.zip
+.env
